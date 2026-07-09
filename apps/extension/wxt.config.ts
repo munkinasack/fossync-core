@@ -15,6 +15,9 @@ export default defineConfig({
       "http://localhost:5173/*",
       "*://www.youtube.com/*",
       "*://www.crunchyroll.com/*",
+      "*://cloudflarestream.com/*",
+      "*://*.cloudflarestream.com/*",
+      "*://embed.cloudflarestream.com/*",
     ],
     browser_specific_settings: {
       // `data_collection_permissions` postdates wxt 0.19's manifest types.
